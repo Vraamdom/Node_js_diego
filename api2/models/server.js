@@ -1,18 +1,5 @@
 const express = require('express')
-let usuarios = [
-    {
-    "NombreCompleto" :"AlixTrululu",
-    "CorreoElectronico" : "Yiseth07qgmail.com",
-    "Contraseña": "1018227558iD",
-    "ConfirmarContraseña":"1018227558iD"
-},
-{
-    "NombreCompleto" :"AlixTrululu",
-    "CorreoElectronico" : "Alidyd@gmail.com",
-    "Contraseña": "1018227558313D",
-    "ConfirmarContraseña":"101822755813D"
-}
-]
+
 class Server{
 
     constructor(){
