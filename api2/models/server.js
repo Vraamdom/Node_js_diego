@@ -6,6 +6,7 @@ class Server{
         this.app = express()
         this.port= process.env.PORT
         this.routes()
+        this.app.aprendizPath = 'api/aprendiz'
     }
 listen(){
    this.app.listen(
@@ -17,6 +18,7 @@ listen(){
    )
 }
 routes(){
+    this.app.use(this.app.aprendizPath, requiere('../routes/aprendi'))
   
 }
 }
